@@ -1,5 +1,5 @@
 # Nothing derived from the licensed extraction may ever be committed here.
-data/
+/data/
 *.parquet
 **/preds.parquet
 
