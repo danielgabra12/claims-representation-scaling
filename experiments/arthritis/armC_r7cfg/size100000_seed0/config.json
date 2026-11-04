@@ -1,0 +1,30 @@
+{
+  "disease": "arthritis",
+  "arm": "C",
+  "size": 100000,
+  "seed": 0,
+  "model": "transformer",
+  "tag": "_r7cfg",
+  "hyper": {
+    "d_model": 128,
+    "n_heads": 8,
+    "n_layers": 2,
+    "ff": 256,
+    "dropout": 0.2,
+    "max_len": 200,
+    "batch": 512,
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "warmup_steps": 100,
+    "max_epochs": 25,
+    "patience": 10,
+    "val_frac": 0.1,
+    "optimizer": "adamw",
+    "cosine": false,
+    "loss": "bce",
+    "pos_reweight": false,
+    "pooling": "cls",
+    "seq_suffix": ""
+  },
+  "vocab_size": 798
+}

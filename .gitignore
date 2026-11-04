@@ -1,0 +1,20 @@
+# Nothing derived from the licensed extraction may ever be committed here.
+data/
+*.parquet
+**/preds.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# LaTeX build droppings
+*.aux
+*.log
+*.out
+*.blg
+
+.DS_Store
+Thumbs.db

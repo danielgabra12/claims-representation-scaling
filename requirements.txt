@@ -1,0 +1,28 @@
+# SURF Arthritis Incidence — local analysis stack.
+# Snowflake connector is intentionally NOT a hard dependency of src/:
+# extraction is a manual, human-only step (see CLAUDE.md hard rule #1).
+# Install it separately only on the machine that runs the one extraction.
+
+pandas>=2.0
+numpy>=1.24
+statsmodels>=0.14
+matplotlib>=3.7
+seaborn>=0.12
+duckdb>=0.10
+pyarrow>=14.0
+pyyaml>=6.0
+scikit-learn>=1.3      # epi ML stretch + ML Tier 1
+pytest>=7.4
+jupyter>=1.0           # narrated notebooks
+
+# --- ML onset-prediction project (arthritis_ml_project_spec.md) ---
+xgboost>=2.0           # Tier 1 gradient-boosted trees
+scikit-survival>=0.22  # Tier 2 survival forests / gradient-boosted survival
+lifelines>=0.27        # Tier 2 Cox proportional hazards
+shap>=0.44             # Tier 4 interpretability
+torch>=2.2             # Tier 2 DeepSurv + Tier 3 sequence models
+# CPU-only torch: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+
+# For the single manual extraction only (NOT imported anywhere in src/):
+#   pip install snowflake-connector-python

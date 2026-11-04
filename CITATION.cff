@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Only one arm's ceiling is estimable: engineered features versus learned sequence representations across 10k to 1.1M claims patients"
+authors:
+  - family-names: Gabra
+    given-names: Daniel
+    affiliation: "Schmid College of Science and Technology, Chapman University"
+  - family-names: Rakovski
+    given-names: Cyril
+    affiliation: "Schmid College of Science and Technology, Chapman University"
+year: 2026
+license: MIT
+abstract: >-
+  Whether learned representations of clinical event sequences can displace
+  hand-engineered features is usually settled in the few-shot regime. Using a
+  1.25M-patient extraction from a national US commercial claims database, we
+  compare 828 engineered features with gradient-boosted trees against a
+  Deepr-style 1-D CNN and a BEHRT-style Transformer over identical tokens,
+  across a 10k to 1.11M ladder. Engineered features lead at every scale; only
+  the feature arm's asymptote is identifiable, and under log-linear gap closure
+  parity arrives near 6 to 8 million patients.

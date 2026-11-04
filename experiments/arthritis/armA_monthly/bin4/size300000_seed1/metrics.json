@@ -1,0 +1,16 @@
+{
+  "auroc": 0.8191789184741416,
+  "auprc": 0.08342468063473168,
+  "brier": 0.017550606280565262,
+  "best_iteration": 114,
+  "n_fit": 270000,
+  "n_val": 30000,
+  "pos_rate_train": 0.019185185185185184,
+  "disease": "arthritis",
+  "arm": "A-M",
+  "variant": "bin4",
+  "size": 300000,
+  "seed": 1,
+  "n_features": 3240,
+  "seconds": 120.2
+}

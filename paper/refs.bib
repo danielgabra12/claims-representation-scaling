@@ -1,0 +1,162 @@
+% Bibliography for the ML4H 2026 submission.
+%
+% VERIFICATION STATUS, 2026-08-17.
+%   [V]  verified this session against the publisher page, arXiv listing, or a search result
+%        that quoted the full record.
+%   [P]  partially verified: title/authors/venue/year confirmed, but page or article numbers
+%        were not seen directly and should be checked against the publisher record.
+%   [U]  UNVERIFIED. Taken from the author's knowledge. Check before submitting.
+%
+% As of 2026-08-20 ALL TWELVE ENTRIES ARE [V]. No [P] or [U] remain.
+
+% ---------------------------------------------------------------- sequence models for EHR
+
+% [V] Verified: IEEE J Biomed Health Inform 21(1):22-30, 2017. PubMed 27913366.
+%     arXiv preprint is 1607.07519 (2016).
+@article{nguyen2017deepr,
+  title   = {Deepr: A Convolutional Net for Medical Records},
+  author  = {Nguyen, Phuoc and Tran, Truyen and Wickramasinghe, Nilmini and Venkatesh, Svetha},
+  journal = {IEEE Journal of Biomedical and Health Informatics},
+  volume  = {21},
+  number  = {1},
+  pages   = {22--30},
+  year    = {2017},
+  note    = {arXiv:1607.07519}
+}
+
+% [V] Nature Sci Rep record confirmed: Sci Rep 10, 7155 (2020).
+@article{li2020behrt,
+  title   = {{BEHRT}: Transformer for Electronic Health Records},
+  author  = {Li, Yikuan and Rao, Shishir and Solares, Jose Roberto Ayala and Hassaine, Abdelaali
+             and Ramakrishnan, Rema and Canoy, Dexter and Zhu, Yajie and Rahimi, Kazem
+             and Salimi-Khorshidi, Gholamreza},
+  journal = {Scientific Reports},
+  volume  = {10},
+  number  = {1},
+  pages   = {7155},
+  year    = {2020},
+  doi     = {10.1038/s41598-020-62922-y}
+}
+
+% [V] npj Digital Medicine 4, 86 (2021). Pretrained on 28,490,650 patients.
+@article{rasmy2021medbert,
+  title   = {{Med-BERT}: pretrained contextualized embeddings on large-scale structured
+             electronic health records for disease prediction},
+  author  = {Rasmy, Laila and Xiang, Yang and Xie, Ziqian and Tao, Cui and Zhi, Degui},
+  journal = {npj Digital Medicine},
+  volume  = {4},
+  number  = {1},
+  pages   = {86},
+  year    = {2021},
+  doi     = {10.1038/s41746-021-00455-y}
+}
+
+% [V] J Biomed Inform 113, 103637 (2021). This is CLMBR.
+@article{steinberg2021clmbr,
+  title   = {Language models are an effective representation learning technique for
+             electronic health record data},
+  author  = {Steinberg, Ethan and Jung, Ken and Fries, Jason A. and Corbin, Conor K.
+             and Pfohl, Stephen R. and Shah, Nigam H.},
+  journal = {Journal of Biomedical Informatics},
+  volume  = {113},
+  pages   = {103637},
+  year    = {2021}
+}
+
+% ---------------------------------------------------------------- the comparison at small n
+
+% [V] arXiv:2307.02028. NeurIPS 2023 Datasets and Benchmarks track. 6,739 patients from
+%     Stanford Medicine, 15 few-shot tasks. CLMBR-T-base is 141M params pretrained on 2.57M
+%     patients.
+@inproceedings{wornow2023ehrshot,
+  title     = {{EHRSHOT}: An {EHR} Benchmark for Few-Shot Evaluation of Foundation Models},
+  author    = {Wornow, Michael and Thapa, Rahul and Steinberg, Ethan and Fries, Jason A.
+               and Shah, Nigam H.},
+  booktitle = {Advances in Neural Information Processing Systems 36,
+               Datasets and Benchmarks Track},
+  year      = {2023},
+  note      = {arXiv:2307.02028}
+}
+
+% [V] arXiv:2511.00782, submitted 2 Nov 2025. Count-based learners built from ontology
+%     roll-ups with two time bins; head-to-head wins largely split between count-based and
+%     the mixture-of-agents pipeline. THE DIRECTLY COMPETING WORK.
+@article{gao2025countbased,
+  title   = {Count-Based Approaches Remain Strong: A Benchmark Against Transformer and
+             {LLM} Pipelines on Structured {EHR}},
+  author  = {Gao, Jifan and Rosenthal, Michael and Wolpin, Brian and Cristea, Simona},
+  journal = {arXiv preprint arXiv:2511.00782},
+  year    = {2025}
+}
+
+% ---------------------------------------------------------------- tabular vs deep learning
+
+% [V] Information Fusion 81, 84--90 (2022).
+@article{shwartzziv2022tabular,
+  title   = {Tabular Data: Deep Learning is Not All You Need},
+  author  = {Shwartz-Ziv, Ravid and Armon, Amitai},
+  journal = {Information Fusion},
+  volume  = {81},
+  pages   = {84--90},
+  year    = {2022}
+}
+
+% [V] NeurIPS 2022 Datasets and Benchmarks track. NOTE: the arXiv title (2207.08815) omits
+%     "typical" ("...on tabular data?"); the proceedings title includes it. Use whichever
+%     matches the version you cite.
+@inproceedings{grinsztajn2022trees,
+  title     = {Why do tree-based models still outperform deep learning on typical
+               tabular data?},
+  author    = {Grinsztajn, L{\'e}o and Oyallon, Edouard and Varoquaux, Ga{\"e}l},
+  booktitle = {Advances in Neural Information Processing Systems 35,
+               Datasets and Benchmarks Track},
+  year      = {2022},
+  note      = {arXiv:2207.08815}
+}
+
+% ---------------------------------------------------------------- scaling laws
+
+% [V] arXiv:1712.00409 (2017).
+@article{hestness2017scaling,
+  title   = {Deep Learning Scaling is Predictable, Empirically},
+  author  = {Hestness, Joel and Narang, Sharan and Ardalani, Newsha and Diamos, Gregory
+             and Jun, Heewoo and Kianinejad, Hassan and Patwary, Md Mostofa Ali
+             and Yang, Yang and Zhou, Yanqi},
+  journal = {arXiv preprint arXiv:1712.00409},
+  year    = {2017}
+}
+
+% [V] arXiv:1909.12673 (2019); appeared at ICLR 2020. Source of the saturating functional
+%     form used in section 4.3.
+@inproceedings{rosenfeld2020constructive,
+  title     = {A Constructive Prediction of the Generalization Error Across Scales},
+  author    = {Rosenfeld, Jonathan S. and Rosenfeld, Amir and Belinkov, Yonatan
+               and Shavit, Nir},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2020},
+  note      = {arXiv:1909.12673}
+}
+
+% [V] Verified against the arXiv listing: 2001.08361, submitted 23 Jan 2020, full author
+%     list confirmed in order.
+@article{kaplan2020scaling,
+  title   = {Scaling Laws for Neural Language Models},
+  author  = {Kaplan, Jared and McCandlish, Sam and Henighan, Tom and Brown, Tom B.
+             and Chess, Benjamin and Child, Rewon and Gray, Scott and Radford, Alec
+             and Wu, Jeffrey and Amodei, Dario},
+  journal = {arXiv preprint arXiv:2001.08361},
+  year    = {2020}
+}
+
+% [V] Verified against the arXiv listing: 2203.15556, submitted 29 Mar 2022, leading authors
+%     confirmed in order. NOTE: the arXiv page does NOT assert a conference venue, so this is
+%     cited as a preprint rather than as NeurIPS 2022. The "Chinchilla" paper.
+@article{hoffmann2022training,
+  title   = {Training Compute-Optimal Large Language Models},
+  author  = {Hoffmann, Jordan and Borgeaud, Sebastian and Mensch, Arthur and
+             Buchatskaya, Elena and Cai, Trevor and Rutherford, Eliza and
+             de Las Casas, Diego and Hendricks, Lisa Anne and Welbl, Johannes and
+             Clark, Aidan and others},
+  journal = {arXiv preprint arXiv:2203.15556},
+  year    = {2022}
+}

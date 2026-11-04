@@ -1,0 +1,16 @@
+{
+  "auroc": 0.7816535186151475,
+  "auprc": 0.066367304901769,
+  "brier": 0.017804797221540804,
+  "best_epoch": 3,
+  "val_auroc": 0.7714608711378206,
+  "n_fit": 270000,
+  "n_val": 30000,
+  "pos_rate_train": 0.019185185185185184,
+  "disease": "arthritis",
+  "arm": "C",
+  "size": 300000,
+  "seed": 1,
+  "vocab_size": 798,
+  "seconds": 1200.1
+}

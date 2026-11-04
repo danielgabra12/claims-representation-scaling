@@ -1,0 +1,22 @@
+{
+  "disease": "arthritis",
+  "arm": "A-M",
+  "variant": "bin2",
+  "size": 300000,
+  "seed": 1,
+  "xgb_params": {
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 5,
+    "tree_method": "hist",
+    "device": "cpu",
+    "eval_metric": "auc",
+    "n_jobs": -1
+  },
+  "num_rounds": 800,
+  "early_stop": 40,
+  "n_features": 1632,
+  "n_months": 12
+}

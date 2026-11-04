@@ -1,0 +1,101 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gao et~al.(2025)Gao, Rosenthal, Wolpin, and
+  Cristea]{gao2025countbased}
+Jifan Gao, Michael Rosenthal, Brian Wolpin, and Simona Cristea.
+\newblock Count-based approaches remain strong: A benchmark against transformer
+  and {LLM} pipelines on structured {EHR}.
+\newblock \emph{arXiv preprint arXiv:2511.00782}, 2025.
+
+\bibitem[Grinsztajn et~al.(2022)Grinsztajn, Oyallon, and
+  Varoquaux]{grinsztajn2022trees}
+L{\'e}o Grinsztajn, Edouard Oyallon, and Ga{\"e}l Varoquaux.
+\newblock Why do tree-based models still outperform deep learning on typical
+  tabular data?
+\newblock In \emph{Advances in Neural Information Processing Systems 35,
+  Datasets and Benchmarks Track}, 2022.
+\newblock arXiv:2207.08815.
+
+\bibitem[Hestness et~al.(2017)Hestness, Narang, Ardalani, Diamos, Jun,
+  Kianinejad, Patwary, Yang, and Zhou]{hestness2017scaling}
+Joel Hestness, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun,
+  Hassan Kianinejad, Md~Mostofa~Ali Patwary, Yang Yang, and Yanqi Zhou.
+\newblock Deep learning scaling is predictable, empirically.
+\newblock \emph{arXiv preprint arXiv:1712.00409}, 2017.
+
+\bibitem[Hoffmann et~al.(2022)Hoffmann, Borgeaud, Mensch, Buchatskaya, Cai,
+  Rutherford, de~Las~Casas, Hendricks, Welbl, Clark,
+  et~al.]{hoffmann2022training}
+Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch, Elena Buchatskaya, Trevor
+  Cai, Eliza Rutherford, Diego de~Las~Casas, Lisa~Anne Hendricks, Johannes
+  Welbl, Aidan Clark, et~al.
+\newblock Training compute-optimal large language models.
+\newblock \emph{arXiv preprint arXiv:2203.15556}, 2022.
+
+\bibitem[Kaplan et~al.(2020)Kaplan, McCandlish, Henighan, Brown, Chess, Child,
+  Gray, Radford, Wu, and Amodei]{kaplan2020scaling}
+Jared Kaplan, Sam McCandlish, Tom Henighan, Tom~B. Brown, Benjamin Chess, Rewon
+  Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei.
+\newblock Scaling laws for neural language models.
+\newblock \emph{arXiv preprint arXiv:2001.08361}, 2020.
+
+\bibitem[Li et~al.(2020)Li, Rao, Solares, Hassaine, Ramakrishnan, Canoy, Zhu,
+  Rahimi, and Salimi-Khorshidi]{li2020behrt}
+Yikuan Li, Shishir Rao, Jose Roberto~Ayala Solares, Abdelaali Hassaine, Rema
+  Ramakrishnan, Dexter Canoy, Yajie Zhu, Kazem Rahimi, and Gholamreza
+  Salimi-Khorshidi.
+\newblock {BEHRT}: Transformer for electronic health records.
+\newblock \emph{Scientific Reports}, 10\penalty0 (1):\penalty0 7155, 2020.
+\newblock \doi{10.1038/s41598-020-62922-y}.
+
+\bibitem[Nguyen et~al.(2017)Nguyen, Tran, Wickramasinghe, and
+  Venkatesh]{nguyen2017deepr}
+Phuoc Nguyen, Truyen Tran, Nilmini Wickramasinghe, and Svetha Venkatesh.
+\newblock Deepr: A convolutional net for medical records.
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}, 21\penalty0
+  (1):\penalty0 22--30, 2017.
+\newblock arXiv:1607.07519.
+
+\bibitem[Rasmy et~al.(2021)Rasmy, Xiang, Xie, Tao, and Zhi]{rasmy2021medbert}
+Laila Rasmy, Yang Xiang, Ziqian Xie, Cui Tao, and Degui Zhi.
+\newblock {Med-BERT}: pretrained contextualized embeddings on large-scale
+  structured electronic health records for disease prediction.
+\newblock \emph{npj Digital Medicine}, 4\penalty0 (1):\penalty0 86, 2021.
+\newblock \doi{10.1038/s41746-021-00455-y}.
+
+\bibitem[Rosenfeld et~al.(2020)Rosenfeld, Rosenfeld, Belinkov, and
+  Shavit]{rosenfeld2020constructive}
+Jonathan~S. Rosenfeld, Amir Rosenfeld, Yonatan Belinkov, and Nir Shavit.
+\newblock A constructive prediction of the generalization error across scales.
+\newblock In \emph{International Conference on Learning Representations}, 2020.
+\newblock arXiv:1909.12673.
+
+\bibitem[Shwartz-Ziv and Armon(2022)]{shwartzziv2022tabular}
+Ravid Shwartz-Ziv and Amitai Armon.
+\newblock Tabular data: Deep learning is not all you need.
+\newblock \emph{Information Fusion}, 81:\penalty0 84--90, 2022.
+
+\bibitem[Steinberg et~al.(2021)Steinberg, Jung, Fries, Corbin, Pfohl, and
+  Shah]{steinberg2021clmbr}
+Ethan Steinberg, Ken Jung, Jason~A. Fries, Conor~K. Corbin, Stephen~R. Pfohl,
+  and Nigam~H. Shah.
+\newblock Language models are an effective representation learning technique
+  for electronic health record data.
+\newblock \emph{Journal of Biomedical Informatics}, 113:\penalty0 103637, 2021.
+
+\bibitem[Wornow et~al.(2023)Wornow, Thapa, Steinberg, Fries, and
+  Shah]{wornow2023ehrshot}
+Michael Wornow, Rahul Thapa, Ethan Steinberg, Jason~A. Fries, and Nigam~H.
+  Shah.
+\newblock {EHRSHOT}: An {EHR} benchmark for few-shot evaluation of foundation
+  models.
+\newblock In \emph{Advances in Neural Information Processing Systems 36,
+  Datasets and Benchmarks Track}, 2023.
+\newblock arXiv:2307.02028.
+
+\end{thebibliography}
