@@ -5,9 +5,11 @@ authors:
   - family-names: Gabra
     given-names: Daniel
     affiliation: "Schmid College of Science and Technology, Chapman University"
+    orcid: "https://orcid.org/0009-0003-6339-6997"
   - family-names: Rakovski
     given-names: Cyril
     affiliation: "Schmid College of Science and Technology, Chapman University"
+    # orcid: add Cyril's iD here once he supplies it
 year: 2026
 license: MIT
 abstract: >-
