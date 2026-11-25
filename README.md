@@ -18,7 +18,7 @@ AUROC (95% CI 0.0183 to 0.0247)**. The more useful finding is about curve *shape
 feature arm's asymptote is identifiable across fit windows, and under log-linear gap closure
 parity would arrive near 6 to 8 million patients.
 
-The contribution is the evaluation design, not the arthritis number: a pre-registered
+The contribution is the evaluation design, not the arthritis number: a pre-specified
 information-matching contract, a scale-resolved ladder, identifiability-aware curve fitting that
 reports "not identifiable" as a result rather than hiding it, and five ablations each aimed at
 one named alternative explanation.
