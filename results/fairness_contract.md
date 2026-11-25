@@ -7,7 +7,7 @@ features + GBDT." For that comparison to be honest, the two arms must differ in
 freezes what each arm gets and how each is tuned, so neither can be accused of being a
 straw man._
 
-> **UPDATED 2026-08-17.** This document is the pre-registered protocol; the sections below
+> **UPDATED 2026-08-17.** This document is the protocol, specified before any model was run; the sections below
 > are kept as agreed, with corrections marked. Three things in the original text are now
 > stale and are corrected inline: the test set size, the claim that a Transformer was
 > computationally infeasible (Arm C exists and is the paper's third arm), and the scope

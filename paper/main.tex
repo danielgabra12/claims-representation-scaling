@@ -35,7 +35,7 @@
 Whether learned representations of clinical event sequences can displace hand-engineered features
 is usually settled in the few-shot regime, where count-based features hold their own. \textbf{Our
 contribution is an evaluation design for asking that question at scale, and the result below is
-its first application:} a pre-registered information-matching contract fixing what each arm may
+its first application:} a pre-specified information-matching contract fixing what each arm may
 see, a nested ladder spanning two orders of magnitude, identifiability-aware curve fitting that
 reports ``not identifiable'' as a substantive outcome, and five ablations each targeting one named
 alternative explanation.
@@ -69,7 +69,7 @@ so we bound rather than exclude it. What remains is \textbf{data}.
 
 
 
-The IQVIA PharMetrics Plus extraction \textbf{cannot be shared}: it is commercially licensed and redistribution is prohibited. Researchers with their own licence can reproduce the cohort exactly, since the extraction SQL, phenotype definition, eligibility criteria and vocabulary construction are released with the code. The full pipeline is released, with per-run configurations and metrics for all 234 training runs, per-rung AUROC and AUPRC at all six rungs, seed standard deviations, paired intervals for every arm pair, and the operating-point table at every alert budget. Code is available from the authors on request. Per-patient test predictions, used for every confidence interval reported here, are retained but not released, being keyed to identifiers from the licensed extraction.
+The IQVIA PharMetrics Plus extraction \textbf{cannot be shared}: it is commercially licensed and redistribution is prohibited. Researchers with their own licence can reproduce the cohort exactly, since the extraction SQL, phenotype definition, eligibility criteria and vocabulary construction are released with the code. The full pipeline is released, with per-run configurations and metrics for all 234 training runs, per-rung AUROC and AUPRC at all six rungs, seed standard deviations, paired intervals for every arm pair, and the operating-point table at every alert budget. Code, the per-run configurations and metrics for all 234 runs, and the analysis scripts that regenerate every number here are at \url{https://github.com/danielgabra12/claims-representation-scaling}. Per-patient test predictions, used for every confidence interval reported here, are retained but not released, being keyed to identifiers from the licensed extraction.
 
 
 
@@ -90,7 +90,7 @@ The obvious objection is that these are few-shot evaluations, and label scarcity
 
 
 \begin{enumerate}
-\item \textbf{An information-matching contract}, pre-registered: the same claims from the same window, the same frozen vocabulary chosen label-free, the same treatment exclusions, validation carve and test set. Section~\ref{sec:3.1} quantifies the three asymmetries that survived it, in both directions, rather than asserting the arms were matched.
+\item \textbf{An information-matching contract}, specified before any model was run: the same claims from the same window, the same frozen vocabulary chosen label-free, the same treatment exclusions, validation carve and test set. Section~\ref{sec:3.1} quantifies the three asymmetries that survived it, in both directions, rather than asserting the arms were matched.
 \item \textbf{A scale-resolved ladder}: nested subsets from 10k to 1.11M, identical across arms and seeds, with one fixed temporal holdout, turning ``which representation wins'' into the answerable ``at what scale, if ever''.
 \item \textbf{Identifiability-aware curve fitting}: we fit under multiple windows and report \textbf{``not identifiable'' as a substantive result} rather than presenting whichever fit converged.
 \item \textbf{An elimination structure}: five ablations, each targeting one named alternative explanation, with paired bootstrap intervals. One refuted a claim we made earlier, and we report that reversal.
@@ -687,6 +687,7 @@ rung & d128/L2 (410k params) & d128/L4 & delta [95\% CI] \\
 \begin{table}[!ht]
 \centering
 \small
+\setlength{\tabcolsep}{4pt}
 \caption{Longer-schedule results at the two largest rungs. Arm B at 300k is the only cell where the extended budget selects a different epoch, and it moves AUROC by -0.0014.}
 \label{tab:8}
 \begin{tabular}{llllllll}
